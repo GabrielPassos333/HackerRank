@@ -11,15 +11,12 @@ function marsExploration(s) {
     let contador = 0;
 
     for(let i = 0; i < s.length; i++){
-        if(s[i] !== "S"){
+        if(s[i] !== "S")
             contador++
-        }
-        if(s[i+1] !== "O"){
+        if(s[i+1] !== "O")
             contador++
-        }
-        if(s[i+2] !== "S"){
+        if(s[i+2] !== "S")
             contador++
-        }
         i++
         i++
     }
